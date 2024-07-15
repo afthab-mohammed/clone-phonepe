@@ -1,0 +1,183 @@
+*{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+    background-color: white;
+}
+.container-fluid{
+    background-color: white;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+}
+.navbar img{
+    width: 100px;
+}
+ul li{
+    margin-left: 70px;
+}
+.carousel-inner{
+    position: relative;
+    text-align: center;
+    color: rgb(103, 5, 103);
+}
+.bannertext1{
+    position: absolute;
+    bottom: -70px;
+    left: 16px;
+    margin-bottom: 200px;
+    margin-left: 300px; 
+    font-size: 30px;  
+}
+.bannertext2{
+    position: absolute;
+    bottom: -70px;
+    left: 16px;
+    margin-bottom: 200px;
+    margin-left: 300px; 
+    font-size: 30px;  
+}
+.bannertext3{
+    position: absolute;
+    bottom: -70px;
+    left: 16px;
+    margin-bottom: 200px;
+    margin-left: 300px; 
+    font-size: 30px;  
+    color: white;
+}
+.bannertext4{
+    position: absolute;
+    bottom: -70px;
+    left: 16px;
+    margin-bottom: 200px;
+    margin-left: 300px; 
+    font-size: 30px;
+    color: white;  
+}
+.bannertext5{
+    position: absolute;
+    bottom: -70px;
+    left: 16px;
+    margin-bottom: 200px;
+    margin-left: 150px; 
+    font-size: 30px;
+    color: white;  
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card h5{
+    color: blueviolet;
+}
+.card:hover{
+    scale: 1.1;
+    transition: 0.6s ease-in-out;
+    box-shadow: 2px 4px 6px black;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+.col-6-a{
+    margin-top: 120px;
+}
+.col-6-a h1{
+    color: blueviolet;
+}
+.col-6-a p{
+    font-weight: 2;
+}
+.col-6-b{
+    margin-top: 200px;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.image1 img{
+     width: 500px;
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.image2 img{
+    width: 200px;
+}
+.row2 p{
+    color: black;
+}
+.row3{
+    text-align: center;
+}
+.row3 p{
+    margin-top: 30px;
+    color: black;
+}
+.row3 p span{
+    color: blueviolet;
+}
+.container{
+    background-color: blueviolet;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.col-3{
+    margin-top: 10px;
+}
+.col-3 img{
+    padding: 30px;
+    width: 300px;
+}
+.col-9{
+    padding: 100px;
+}
+.col-9 h1,p{
+    color: white;
+}
+.row5{
+    background-color: rgb(216, 206, 226);
+    text-align: center;
+}
+.row5 h1{
+    padding: 50px;
+    color: rgb(27, 10, 40);
+}
+.row5 .btn{
+    border-radius: 20px;
+}
+.row6{
+    display: flex;
+}
+.col-6-a{ 
+    padding:0;
+}
+.col-6 img{
+    width: 700px;
+    margin-top: 200px;
+}
+.col-6-b{
+    margin-left: 50px;
+}
+.col-6-b h1{
+    color: rgb(27, 10, 40);
+    margin-left: 100px;
+}
+.col-6-b p{
+    color: black;
+    text-align: left;
+}
+.col-6-b h4{
+    color: blueviolet;
+}
